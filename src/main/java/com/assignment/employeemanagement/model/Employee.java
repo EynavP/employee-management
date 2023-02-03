@@ -17,6 +17,9 @@ public class Employee {
     @Column(name = "email")
     private String Email;
 
+    //Default constructor
+    public Employee() {this.id = count.incrementAndGet();}
+
     public Employee(String first_name, String last_name, String email) {
         this.id = count.incrementAndGet();
         this.first_name = first_name;
