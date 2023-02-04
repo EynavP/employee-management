@@ -18,6 +18,7 @@ public class EmployeeManagementApplication implements CommandLineRunner {
 	private EmployeeRepository employeeRepo;
 	@Override
 	public void run(String... args) throws Exception {
+		/*
 		Employee employee = new Employee();
 		employee.setFirst_name("Eynav");
 		employee.setLast_name("Ptia");
@@ -29,5 +30,6 @@ public class EmployeeManagementApplication implements CommandLineRunner {
 		employee1.setLast_name("Ilani");
 		employee1.setEmail("shahar@gmail.com");
 		employeeRepo.save(employee1);
+		 */
 	}
 }
