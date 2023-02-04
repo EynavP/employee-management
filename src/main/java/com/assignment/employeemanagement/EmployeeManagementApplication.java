@@ -18,6 +18,6 @@ public class EmployeeManagementApplication implements CommandLineRunner {
 	private EmployeeRepository employeeRepo;
 	@Override
 	public void run(String... args) throws Exception {
-		
+
 	}
 }
